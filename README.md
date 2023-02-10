@@ -34,6 +34,7 @@ https://www.quora.com/How-do-you-identify-an-invalid-IP-address
 
 Reserved IP Addresses: https://en.wikipedia.org/wiki/Reserved_IP_addresses
 
+What is Routing: https://www.cloudflare.com/learning/network-layer/what-is-routing/
 What is a Routing Table: https://www.geeksforgeeks.org/routing-tables-in-computer-network/
 
 Subnet CheatSheet:  
@@ -121,6 +122,11 @@ Level 02:
     Subnetting, masks, number of available IP Addresses
     x.x.x.1 (?)
 
+Level 03:
+    Switch sends the input to every host on LAN
+
+Level 04:
+    ?
 
 ---
 Made by Nuno Carvalho (Kuninoto) | nnuno-ca@student.42porto.com  
