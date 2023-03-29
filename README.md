@@ -54,17 +54,6 @@ Dictates how things are delivered and permits optimizing the transfer route
 IPv4 - 32bit  
 IPv6 - 128bit, no backwards compatibility  
 
-**TCP (Transmission Control Protocol)**  
-It's a Connection oriented protocol that guarantees that all the data 
-is received and in order thru a 3-way handshake:  
-   - A computer will send a message called a SYN (SYN ->)  
-   - The receiver computer will send back an acknowledgement message (<- SYN ACK)  
-   - The sender computer sends back an acknowledgment message (-> ACK RECEIVED)  
-
-For each segment in transit, the sender keeps a timer. If the timer ends before an ACK  
-for the segment is received, the message is resent.  
-Use cases: downloading files, viewing webpages, etc. Anything that must arrive 100% correct  
-
 ---
 Made by Nuno Carvalho (Kuninoto) | nnuno-ca@student.42porto.com  
 <div id="badge"> <a href="https://www.linkedin.com/in/nuno-carvalho-218822247"/> <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>&nbsp;
